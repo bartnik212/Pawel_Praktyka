@@ -20,4 +20,5 @@ public enum Ranga {
         this.ranga = ranga;
         return this;
     }
+
 }

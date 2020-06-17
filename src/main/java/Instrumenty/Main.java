@@ -7,12 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
 
-        System.out.println("Jak masz na imię?");
-        String imie = scaner.nextLine();
         System.out.println("Podaj refren");
         String refren = scaner.nextLine();
 
-        Muzykant muzykant = new Muzykant(imie);
+        Muzykant muzykant = new Muzykant();
 
         String komenda = "";
 
@@ -48,7 +46,7 @@ public class Main {
                 case "VOICE":
                     IInstrument voice = new Glos();
                     muzykant.setInstrument(voice);
-                    System.out.println("Zmieniam instrument na głos");
+                    System.out.println("Teraz będę śpiewał");
                     break;
 
                 case "FLUTE":

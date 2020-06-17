@@ -2,14 +2,11 @@ package Instrumenty;
 
 public class Muzykant  {
 
-    public Muzykant(String imie){
-    }
 
     private IInstrument instrument = null;
 
-    public Muzykant setInstrument (IInstrument instrument){
+    public void setInstrument (IInstrument instrument){
         this.instrument = instrument;
-        return this;
     }
 
     public void zagraj (String text){
