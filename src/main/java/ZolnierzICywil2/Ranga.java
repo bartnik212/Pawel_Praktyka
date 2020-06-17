@@ -13,8 +13,7 @@ public enum Ranga {
     SIERZANT,
     KAPRAL;
 
-    Scanner scanner = new Scanner(System.in);
-    String wybranaRanga = Ranga.valueOf(scanner.nextLine()).toString().toLowerCase();
+    String wybranaRanga;
 
 
 }

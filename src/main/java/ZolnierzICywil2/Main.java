@@ -23,6 +23,8 @@ public class Main {
         } else if(odpowiedz.equals("tak")){
             Zolnierz zolnierz = new Zolnierz();
             System.out.println("jaka masz range?");
+            String ranga = scaner.nextLine();
+            Ranga.valueOf(ranga);
             zolnierz.setImie(imie);
             zolnierz.setNazwisko(nazwisko);
             zolnierz.przedstawSie();
